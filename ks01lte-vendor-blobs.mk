@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
+	vendor/samsung/ks01lte/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
 	vendor/samsung/ks01lte/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
@@ -102,6 +103,10 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/ks01lte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
 	vendor/samsung/ks01lte/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/samsung/ks01lte/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
+	vendor/samsung/ks01lte/proprietary/lib/libsensorhubcontext.so:system/lib/libsensorhubcontext.so \
+	vendor/samsung/ks01lte/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
+	vendor/samsung/ks01lte/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
+	vendor/samsung/ks01lte/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
 	vendor/samsung/ks01lte/proprietary/lib/hw/sensorhubs.msm8974.so:system/lib/hw/sensorhubs.msm8974.so \
 	vendor/samsung/ks01lte/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
