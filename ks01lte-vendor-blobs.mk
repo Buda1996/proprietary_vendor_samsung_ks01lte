@@ -68,10 +68,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/ks01lte/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
 	vendor/samsung/ks01lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-	vendor/samsung/ks01lte/proprietary/lib/libril.so:system/lib/libril.so \
-	vendor/samsung/ks01lte/proprietary/lib/libsensirion_j1.so:system/lib/libsensirion_j1.so \
-	vendor/samsung/ks01lte/proprietary/lib/libsam.so:system/lib/libsam.so \
-	vendor/samsung/ks01lte/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
 	vendor/samsung/ks01lte/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 	vendor/samsung/ks01lte/proprietary/bin/efsks:system/bin/efsks \
 	vendor/samsung/ks01lte/proprietary/bin/ks:system/bin/ks \
@@ -80,7 +76,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/ks01lte/proprietary/bin/qcks:system/bin/qcks \
 	vendor/samsung/ks01lte/proprietary/bin/qmiproxy:system/bin/qmiproxy \
 	vendor/samsung/ks01lte/proprietary/bin/qmuxd:system/bin/qmuxd \
-	vendor/samsung/ks01lte/proprietary/bin/rild:system/bin/rild \
 	vendor/samsung/ks01lte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 	vendor/samsung/ks01lte/proprietary/lib/libatparser.so:system/lib/libatparser.so \
 	vendor/samsung/ks01lte/proprietary/lib/libcordon.so:system/lib/libcordon.so \
@@ -98,9 +93,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
-	vendor/samsung/ks01lte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
-	vendor/samsung/ks01lte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
 	vendor/samsung/ks01lte/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/samsung/ks01lte/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
 	vendor/samsung/ks01lte/proprietary/lib/libsensorhubcontext.so:system/lib/libsensorhubcontext.so \
@@ -108,6 +101,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/ks01lte/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
 	vendor/samsung/ks01lte/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
 	vendor/samsung/ks01lte/proprietary/lib/hw/sensorhubs.msm8974.so:system/lib/hw/sensorhubs.msm8974.so \
+	vendor/samsung/ks01lte/proprietary/lib/libsensirion_j1.so:system/lib/libsensirion_j1.so \
+	vendor/samsung/ks01lte/proprietary/lib/libsam.so:system/lib/libsam.so \
+	vendor/samsung/ks01lte/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
 	vendor/samsung/ks01lte/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
