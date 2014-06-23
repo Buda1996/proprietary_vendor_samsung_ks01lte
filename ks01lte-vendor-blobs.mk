@@ -77,7 +77,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/ks01lte/proprietary/lib/libatparser.so:system/lib/libatparser.so \
 	vendor/samsung/ks01lte/proprietary/lib/libcordon.so:system/lib/libcordon.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-	vendor/samsung/ks01lte/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+	vendor/samsung/ks01lte/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
 	vendor/samsung/ks01lte/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
 	vendor/samsung/ks01lte/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
@@ -89,7 +89,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
-	vendor/samsung/ks01lte/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+	vendor/samsung/ks01lte/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
 	vendor/samsung/ks01lte/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/samsung/ks01lte/proprietary/lib/hw/sensorhubs.msm8974.so:system/lib/hw/sensorhubs.msm8974.so \
 	vendor/samsung/ks01lte/proprietary/lib/libsensirion_j1.so:system/lib/libsensirion_j1.so \
@@ -249,10 +249,10 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/ks01lte/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 	vendor/samsung/ks01lte/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
 	vendor/samsung/ks01lte/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
-	vendor/samsung/ks01lte/proprietary/lib/libWVStreamControlAPI_L1.so:system/lib/libWVStreamControlAPI_L1.so \
+	vendor/samsung/ks01lte/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
 	vendor/samsung/ks01lte/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
 	vendor/samsung/ks01lte/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-	vendor/samsung/ks01lte/proprietary/lib/libwvdrm_L1.so:system/lib/libwvdrm_L1.so \
+	vendor/samsung/ks01lte/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
 	vendor/samsung/ks01lte/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
@@ -269,5 +269,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/ks01lte/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
 	vendor/samsung/ks01lte/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware.ncd \
 	vendor/samsung/ks01lte/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+	vendor/samsung/ks01lte/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so
