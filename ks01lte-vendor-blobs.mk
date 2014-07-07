@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/ks01lte/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
 	vendor/samsung/ks01lte/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
-	vendor/samsung/ks01lte/proprietary/vendor/firmware/BT_FW_VER_BCM4335B0_002.001.006.0343.0358_ORC_KS01.hcd:system/vendor/firmware/BT_FW_VER_BCM4335B0_002.001.006.0343.0358_ORC_KS01.hcd \
+	vendor/samsung/ks01lte/proprietary/vendor/firmware/BT_FW_VER_BCM4335B0_002.001.006.0301.0306_ORC_KS01.hcd:system/vendor/firmware/BT_FW_VER_BCM4335B0_002.001.006.0301.0306_ORC_KS01.hcd \
 	vendor/samsung/ks01lte/proprietary/vendor/firmware/bcm4335_A0.hcd:system/vendor/firmware/bcm4335_A0.hcd \
 	vendor/samsung/ks01lte/proprietary/vendor/firmware/bcm4335_semco.hcd:system/vendor/firmware/bcm4335_semco.hcd \
 	vendor/samsung/ks01lte/proprietary/vendor/firmware/bcm4335_murata.hcd:system/vendor/firmware/bcm4335_murata.hcd \
