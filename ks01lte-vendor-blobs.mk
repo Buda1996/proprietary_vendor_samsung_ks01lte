@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/ks01lte/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
 	vendor/samsung/ks01lte/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
-	vendor/samsung/ks01lte/proprietary/vendor/firmware/BT_FW_VER_BCM4335B0_002.001.006.0301.0306_ORC_KS01.hcd:system/vendor/firmware/BT_FW_VER_BCM4335B0_002.001.006.0301.0306_ORC_KS01.hcd \
+	vendor/samsung/ks01lte/proprietary/vendor/firmware/BT_FW_VER_BCM4335B0_002.001.006.0325.0336_ORC_Samsung_KS01.hcd:system/vendor/firmware/BT_FW_VER_BCM4335B0_002.001.006.0325.0336_ORC_Samsung_KS01.hcd \
 	vendor/samsung/ks01lte/proprietary/vendor/firmware/bcm4335_A0.hcd:system/vendor/firmware/bcm4335_A0.hcd \
 	vendor/samsung/ks01lte/proprietary/vendor/firmware/bcm4335_semco.hcd:system/vendor/firmware/bcm4335_semco.hcd \
 	vendor/samsung/ks01lte/proprietary/vendor/firmware/bcm4335_murata.hcd:system/vendor/firmware/bcm4335_murata.hcd \
@@ -80,6 +80,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/ks01lte/proprietary/lib/libcordon.so:system/lib/libcordon.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+	vendor/samsung/ks01lte/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
+	vendor/samsung/ks01lte/proprietary/vendor/lib/libdsucsd.so:system/vendor/lib/libdsucsd.so \
 	vendor/samsung/ks01lte/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
 	vendor/samsung/ks01lte/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
@@ -91,6 +93,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+	vendor/samsung/ks01lte/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
 	vendor/samsung/ks01lte/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
 	vendor/samsung/ks01lte/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/samsung/ks01lte/proprietary/lib/hw/sensorhubs.msm8974.so:system/lib/hw/sensorhubs.msm8974.so \
