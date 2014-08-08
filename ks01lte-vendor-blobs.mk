@@ -76,10 +76,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/ks01lte/proprietary/bin/qmiproxy:system/bin/qmiproxy \
 	vendor/samsung/ks01lte/proprietary/bin/qmuxd:system/bin/qmuxd \
 	vendor/samsung/ks01lte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-	vendor/samsung/ks01lte/proprietary/bin/rild:system/bin/rild \
-	vendor/samsung/ks01lte/proprietary/lib/libril.so:system/lib/libril.so \
-	vendor/samsung/ks01lte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-	vendor/samsung/ks01lte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
 	vendor/samsung/ks01lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
 	vendor/samsung/ks01lte/proprietary/lib/libatparser.so:system/lib/libatparser.so \
 	vendor/samsung/ks01lte/proprietary/lib/libcordon.so:system/lib/libcordon.so \
