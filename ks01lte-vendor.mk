@@ -16,6 +16,8 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    libtime_genoff 
+    libHevcSwDecoder \
+    libtime_genoff \
+    libmm-abl
 
 $(call inherit-product, vendor/samsung/ks01lte/ks01lte-vendor-blobs.mk)
